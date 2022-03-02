@@ -5,7 +5,7 @@ let div400 = anoAnalizar %400;
 
 
 if (((div4 == 0) && (div100 != 0)) || (div400 == 0)) {
-    console.log(`${anoAnalizar} Es año bisiesto`);
+    alert(`${anoAnalizar} Es año bisiesto`);
 } else {
-    console.log(`${anoAnalizar} No es año bisiesto`);
+    alert(`${anoAnalizar} No es año bisiesto`);
 }
